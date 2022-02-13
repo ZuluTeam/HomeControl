@@ -11,11 +11,19 @@ import SwiftUI
 
 final class ReminderViewModel: ObservableObject {
 
+    enum TouchState: Equatable {
+        case idle
+        case updating(location: CGPoint, touchDownTime: Date, progress: CGFloat)
+        case finished
+    }
+
     struct Deadline {
         let timeInterval: TimeInterval
         let color: Color
         let icon: String
     }
+
+    static let touchTimeInterval: TimeInterval = 1.0
 
     static let hourTimeInterval: TimeInterval = 60*60
     static let deadlines: [Deadline] = [
@@ -27,6 +35,8 @@ final class ReminderViewModel: ObservableObject {
 
     @Published var checkedDate: Date = Date()
     @Published var deadline: Deadline = deadlines.first!
+
+    @Published var touchState: TouchState = .idle
 
     private var cancellables: Set<AnyCancellable> = []
 
@@ -51,5 +61,4 @@ final class ReminderViewModel: ObservableObject {
         checkedDate = Date()
         deadline = Self.deadlines[0]
     }
-
 }
