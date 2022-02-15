@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    let remindersRouter = RemindersRouter()
+
     var body: some View {
-        RemindersView()
+        remindersRouter
+            .makeInitialView()
             .edgesIgnoringSafeArea(.all)
     }
 }

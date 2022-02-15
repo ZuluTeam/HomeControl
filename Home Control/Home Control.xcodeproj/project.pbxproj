@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		B50933BE27BAF178006F08B0 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50933BD27BAF178006F08B0 /* RemindersView.swift */; };
 		B50933C127BAF7C1006F08B0 /* ScrollViewIfNeeded.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50933C027BAF7C0006F08B0 /* ScrollViewIfNeeded.swift */; };
+		B57CF93227BC294400B7C3F8 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF93127BC294400B7C3F8 /* Services.swift */; };
+		B57CF93427BC29E800B7C3F8 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF93327BC29E800B7C3F8 /* Storage.swift */; };
+		B57CF93627BC2A3700B7C3F8 /* ProductionServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF93527BC2A3700B7C3F8 /* ProductionServiceConfiguration.swift */; };
+		B57CF93927BC2AA900B7C3F8 /* ProductionStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF93827BC2AA900B7C3F8 /* ProductionStorage.swift */; };
+		B57CF93B27BC2D9C00B7C3F8 /* RemindersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF93A27BC2D9C00B7C3F8 /* RemindersRouter.swift */; };
+		B57CF93D27BC3B3700B7C3F8 /* View+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF93C27BC3B3700B7C3F8 /* View+Alert.swift */; };
+		B57CF93F27BC3BAC00B7C3F8 /* View+Sheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF93E27BC3BAC00B7C3F8 /* View+Sheet.swift */; };
+		B57CF94227BC417600B7C3F8 /* View+AnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF94127BC417600B7C3F8 /* View+AnyView.swift */; };
+		B57CF94427BC459800B7C3F8 /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF94327BC459800B7C3F8 /* AddReminderView.swift */; };
 		B597A97527AC778C00CC2D1C /* Home_ControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597A97427AC778C00CC2D1C /* Home_ControlApp.swift */; };
 		B597A97727AC778C00CC2D1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597A97627AC778C00CC2D1C /* ContentView.swift */; };
 		B597A97927AC778F00CC2D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B597A97827AC778F00CC2D1C /* Assets.xcassets */; };
@@ -40,6 +49,15 @@
 /* Begin PBXFileReference section */
 		B50933BD27BAF178006F08B0 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
 		B50933C027BAF7C0006F08B0 /* ScrollViewIfNeeded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewIfNeeded.swift; sourceTree = "<group>"; };
+		B57CF93127BC294400B7C3F8 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		B57CF93327BC29E800B7C3F8 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		B57CF93527BC2A3700B7C3F8 /* ProductionServiceConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionServiceConfiguration.swift; sourceTree = "<group>"; };
+		B57CF93827BC2AA900B7C3F8 /* ProductionStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductionStorage.swift; sourceTree = "<group>"; };
+		B57CF93A27BC2D9C00B7C3F8 /* RemindersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersRouter.swift; sourceTree = "<group>"; };
+		B57CF93C27BC3B3700B7C3F8 /* View+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Alert.swift"; sourceTree = "<group>"; };
+		B57CF93E27BC3BAC00B7C3F8 /* View+Sheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Sheet.swift"; sourceTree = "<group>"; };
+		B57CF94127BC417600B7C3F8 /* View+AnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AnyView.swift"; sourceTree = "<group>"; };
+		B57CF94327BC459800B7C3F8 /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
 		B597A97127AC778C00CC2D1C /* Home Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B597A97427AC778C00CC2D1C /* Home_ControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_ControlApp.swift; sourceTree = "<group>"; };
 		B597A97627AC778C00CC2D1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,7 +100,48 @@
 		B50933BF27BAF78F006F08B0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B57CF94027BC3E9B00B7C3F8 /* Extensions */,
 				B50933C027BAF7C0006F08B0 /* ScrollViewIfNeeded.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B57CF93027BC293000B7C3F8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B57CF93127BC294400B7C3F8 /* Services.swift */,
+				B57CF93727BC2A9300B7C3F8 /* Storage */,
+				B57CF93527BC2A3700B7C3F8 /* ProductionServiceConfiguration.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B57CF93727BC2A9300B7C3F8 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				B57CF93327BC29E800B7C3F8 /* Storage.swift */,
+				B57CF93827BC2AA900B7C3F8 /* ProductionStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		B57CF94027BC3E9B00B7C3F8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B57CF93C27BC3B3700B7C3F8 /* View+Alert.swift */,
+				B57CF93E27BC3BAC00B7C3F8 /* View+Sheet.swift */,
+				B57CF94127BC417600B7C3F8 /* View+AnyView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B57CF94527BC45A600B7C3F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B597A99F27AC789300CC2D1C /* ReminderViewModel.swift */,
+				B597A9A127AC78A700CC2D1C /* ReminderView.swift */,
+				B50933BD27BAF178006F08B0 /* RemindersView.swift */,
+				B57CF94327BC459800B7C3F8 /* AddReminderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -110,6 +169,7 @@
 		B597A97327AC778C00CC2D1C /* Home Control */ = {
 			isa = PBXGroup;
 			children = (
+				B57CF93027BC293000B7C3F8 /* Services */,
 				B50933BF27BAF78F006F08B0 /* Views */,
 				B597A99E27AC781F00CC2D1C /* Reminders */,
 				B597A97427AC778C00CC2D1C /* Home_ControlApp.swift */,
@@ -148,9 +208,8 @@
 		B597A99E27AC781F00CC2D1C /* Reminders */ = {
 			isa = PBXGroup;
 			children = (
-				B597A99F27AC789300CC2D1C /* ReminderViewModel.swift */,
-				B597A9A127AC78A700CC2D1C /* ReminderView.swift */,
-				B50933BD27BAF178006F08B0 /* RemindersView.swift */,
+				B57CF93A27BC2D9C00B7C3F8 /* RemindersRouter.swift */,
+				B57CF94527BC45A600B7C3F8 /* Views */,
 			);
 			path = Reminders;
 			sourceTree = "<group>";
@@ -288,8 +347,17 @@
 				B597A9A027AC789300CC2D1C /* ReminderViewModel.swift in Sources */,
 				B597A97727AC778C00CC2D1C /* ContentView.swift in Sources */,
 				B50933BE27BAF178006F08B0 /* RemindersView.swift in Sources */,
+				B57CF93227BC294400B7C3F8 /* Services.swift in Sources */,
 				B50933C127BAF7C1006F08B0 /* ScrollViewIfNeeded.swift in Sources */,
+				B57CF93427BC29E800B7C3F8 /* Storage.swift in Sources */,
+				B57CF94227BC417600B7C3F8 /* View+AnyView.swift in Sources */,
+				B57CF93F27BC3BAC00B7C3F8 /* View+Sheet.swift in Sources */,
+				B57CF93D27BC3B3700B7C3F8 /* View+Alert.swift in Sources */,
+				B57CF94427BC459800B7C3F8 /* AddReminderView.swift in Sources */,
 				B597A9A227AC78A700CC2D1C /* ReminderView.swift in Sources */,
+				B57CF93B27BC2D9C00B7C3F8 /* RemindersRouter.swift in Sources */,
+				B57CF93627BC2A3700B7C3F8 /* ProductionServiceConfiguration.swift in Sources */,
+				B57CF93927BC2AA900B7C3F8 /* ProductionStorage.swift in Sources */,
 				B597A97527AC778C00CC2D1C /* Home_ControlApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -433,7 +501,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -459,7 +527,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,7 +557,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

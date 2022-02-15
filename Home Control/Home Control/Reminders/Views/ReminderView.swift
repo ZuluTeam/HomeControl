@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct ReminderView: View {
-
     @ObservedObject var viewModel: ReminderViewModel
 
     private let timer = Timer.publish(every: 0.01, on: .main, in: .common).autoconnect()
