@@ -7,6 +7,15 @@
 
 import Foundation
 
-protocol Storage {
+enum StorageError: Error {
+    case unableToStore(Error)
+    case unableToDelete(Error)
+}
 
+protocol Storage {
+    typealias RecordBase = Equatable & Identifiable
+
+    func getObjects<Record: RecordBase>() -> [Record]
+    func store<Record: RecordBase>(record: Record) async throws
+    func delete<Record: RecordBase>(record: Record) async throws
 }

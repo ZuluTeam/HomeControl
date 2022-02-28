@@ -16,6 +16,14 @@ protocol Router {
 }
 
 final class RemindersRouter: Router {
+    private let services: Services
+
+    init(
+        services: Services
+    ) {
+        self.services = services
+    }
+
     private let presentCreateReminder: CurrentValueSubject<Bool, Never> = CurrentValueSubject(false)
 
     func makeInitialView() -> some View {

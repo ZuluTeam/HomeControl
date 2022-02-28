@@ -2,17 +2,23 @@
 //  Services.swift
 //  Home Control
 //
-//  Created by Konstantin Zyrianov on 2022-02-15.
+//  Created by Konstantin Zyrianov on 2022-02-20.
 //
 
 import Foundation
 
-struct ServiceConfiguration {
-    let storage: Storage
-}
-
-protocol StorageFactory {
+protocol Services {
     var storage: Storage { get }
 }
 
-extension ServiceConfiguration: StorageFactory {}
+struct ServiceConfiguration: Services {
+    let storage: Storage
+}
+
+extension ServiceConfiguration {
+    static var memory: ServiceConfiguration {
+        ServiceConfiguration(
+            storage: MemoryStorage()
+        )
+    }
+}
