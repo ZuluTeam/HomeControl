@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B50933BE27BAF178006F08B0 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50933BD27BAF178006F08B0 /* RemindersView.swift */; };
+		B50933C127BAF7C1006F08B0 /* ScrollViewIfNeeded.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50933C027BAF7C0006F08B0 /* ScrollViewIfNeeded.swift */; };
+		B57CF93427BC29E800B7C3F8 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF93327BC29E800B7C3F8 /* Storage.swift */; };
+		B57CF93927BC2AA900B7C3F8 /* CloudStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF93827BC2AA900B7C3F8 /* CloudStorage.swift */; };
+		B57CF93B27BC2D9C00B7C3F8 /* RemindersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF93A27BC2D9C00B7C3F8 /* RemindersRouter.swift */; };
+		B57CF93D27BC3B3700B7C3F8 /* View+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF93C27BC3B3700B7C3F8 /* View+Alert.swift */; };
+		B57CF93F27BC3BAC00B7C3F8 /* View+Sheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF93E27BC3BAC00B7C3F8 /* View+Sheet.swift */; };
+		B57CF94227BC417600B7C3F8 /* View+AnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF94127BC417600B7C3F8 /* View+AnyView.swift */; };
+		B57CF94427BC459800B7C3F8 /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57CF94327BC459800B7C3F8 /* AddReminderView.swift */; };
 		B597A97527AC778C00CC2D1C /* Home_ControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597A97427AC778C00CC2D1C /* Home_ControlApp.swift */; };
 		B597A97727AC778C00CC2D1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597A97627AC778C00CC2D1C /* ContentView.swift */; };
 		B597A97927AC778F00CC2D1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B597A97827AC778F00CC2D1C /* Assets.xcassets */; };
@@ -16,6 +25,13 @@
 		B597A99227AC778F00CC2D1C /* Home_ControlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597A99127AC778F00CC2D1C /* Home_ControlUITestsLaunchTests.swift */; };
 		B597A9A027AC789300CC2D1C /* ReminderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597A99F27AC789300CC2D1C /* ReminderViewModel.swift */; };
 		B597A9A227AC78A700CC2D1C /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B597A9A127AC78A700CC2D1C /* ReminderView.swift */; };
+		B5C420A927C6CD3700BE3854 /* DynamicColor in Frameworks */ = {isa = PBXBuildFile; productRef = B5C420A827C6CD3700BE3854 /* DynamicColor */; };
+		B5C420AC27C6CF9800BE3854 /* Color+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C420AB27C6CF9800BE3854 /* Color+Codable.swift */; };
+		B5C420AE27C788FC00BE3854 /* CodableColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C420AD27C788FC00BE3854 /* CodableColorTests.swift */; };
+		B5EC8EDE27C185E5008587AA /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC8EDD27C185E5008587AA /* MemoryStorage.swift */; };
+		B5EC8EE227C18C56008587AA /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5EC8EE127C18C56008587AA /* CloudKit.framework */; };
+		B5EC8EE527C1A5D0008587AA /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC8EE427C1A5D0008587AA /* Reminder.swift */; };
+		B5EC8EE727C2DF28008587AA /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC8EE627C2DF28008587AA /* Services.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +52,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B50933BD27BAF178006F08B0 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		B50933C027BAF7C0006F08B0 /* ScrollViewIfNeeded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewIfNeeded.swift; sourceTree = "<group>"; };
+		B57CF93327BC29E800B7C3F8 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		B57CF93827BC2AA900B7C3F8 /* CloudStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudStorage.swift; sourceTree = "<group>"; };
+		B57CF93A27BC2D9C00B7C3F8 /* RemindersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersRouter.swift; sourceTree = "<group>"; };
+		B57CF93C27BC3B3700B7C3F8 /* View+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Alert.swift"; sourceTree = "<group>"; };
+		B57CF93E27BC3BAC00B7C3F8 /* View+Sheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Sheet.swift"; sourceTree = "<group>"; };
+		B57CF94127BC417600B7C3F8 /* View+AnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+AnyView.swift"; sourceTree = "<group>"; };
+		B57CF94327BC459800B7C3F8 /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
 		B597A97127AC778C00CC2D1C /* Home Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Home Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B597A97427AC778C00CC2D1C /* Home_ControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_ControlApp.swift; sourceTree = "<group>"; };
 		B597A97627AC778C00CC2D1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +73,13 @@
 		B597A99127AC778F00CC2D1C /* Home_ControlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home_ControlUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B597A99F27AC789300CC2D1C /* ReminderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewModel.swift; sourceTree = "<group>"; };
 		B597A9A127AC78A700CC2D1C /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		B5C420AB27C6CF9800BE3854 /* Color+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Codable.swift"; sourceTree = "<group>"; };
+		B5C420AD27C788FC00BE3854 /* CodableColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableColorTests.swift; sourceTree = "<group>"; };
+		B5EC8EDD27C185E5008587AA /* MemoryStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
+		B5EC8EDF27C18C46008587AA /* Home Control.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Home Control.entitlements"; sourceTree = "<group>"; };
+		B5EC8EE127C18C56008587AA /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		B5EC8EE427C1A5D0008587AA /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		B5EC8EE627C2DF28008587AA /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C420A927C6CD3700BE3854 /* DynamicColor in Frameworks */,
+				B5EC8EE227C18C56008587AA /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +109,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B50933BF27BAF78F006F08B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B57CF94027BC3E9B00B7C3F8 /* Extensions */,
+				B50933C027BAF7C0006F08B0 /* ScrollViewIfNeeded.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B57CF93027BC293000B7C3F8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B57CF93727BC2A9300B7C3F8 /* Storage */,
+				B5EC8EE627C2DF28008587AA /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B57CF93727BC2A9300B7C3F8 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				B57CF93327BC29E800B7C3F8 /* Storage.swift */,
+				B57CF93827BC2AA900B7C3F8 /* CloudStorage.swift */,
+				B5EC8EDD27C185E5008587AA /* MemoryStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		B57CF94027BC3E9B00B7C3F8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B57CF93C27BC3B3700B7C3F8 /* View+Alert.swift */,
+				B57CF93E27BC3BAC00B7C3F8 /* View+Sheet.swift */,
+				B57CF94127BC417600B7C3F8 /* View+AnyView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B57CF94527BC45A600B7C3F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B597A99F27AC789300CC2D1C /* ReminderViewModel.swift */,
+				B597A9A127AC78A700CC2D1C /* ReminderView.swift */,
+				B50933BD27BAF178006F08B0 /* RemindersView.swift */,
+				B57CF94327BC459800B7C3F8 /* AddReminderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B597A96827AC778C00CC2D1C = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +165,7 @@
 				B597A98427AC778F00CC2D1C /* Home ControlTests */,
 				B597A98E27AC778F00CC2D1C /* Home ControlUITests */,
 				B597A97227AC778C00CC2D1C /* Products */,
+				B5EC8EE027C18C56008587AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +182,10 @@
 		B597A97327AC778C00CC2D1C /* Home Control */ = {
 			isa = PBXGroup;
 			children = (
+				B5C420AA27C6CF8700BE3854 /* Extensions */,
+				B5EC8EDF27C18C46008587AA /* Home Control.entitlements */,
+				B57CF93027BC293000B7C3F8 /* Services */,
+				B50933BF27BAF78F006F08B0 /* Views */,
 				B597A99E27AC781F00CC2D1C /* Reminders */,
 				B597A97427AC778C00CC2D1C /* Home_ControlApp.swift */,
 				B597A97627AC778C00CC2D1C /* ContentView.swift */,
@@ -119,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				B597A98527AC778F00CC2D1C /* Home_ControlTests.swift */,
+				B5C420AD27C788FC00BE3854 /* CodableColorTests.swift */,
 			);
 			path = "Home ControlTests";
 			sourceTree = "<group>";
@@ -135,10 +224,35 @@
 		B597A99E27AC781F00CC2D1C /* Reminders */ = {
 			isa = PBXGroup;
 			children = (
-				B597A99F27AC789300CC2D1C /* ReminderViewModel.swift */,
-				B597A9A127AC78A700CC2D1C /* ReminderView.swift */,
+				B57CF93A27BC2D9C00B7C3F8 /* RemindersRouter.swift */,
+				B5EC8EE327C1A5C0008587AA /* Model */,
+				B57CF94527BC45A600B7C3F8 /* Views */,
 			);
 			path = Reminders;
+			sourceTree = "<group>";
+		};
+		B5C420AA27C6CF8700BE3854 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B5C420AB27C6CF9800BE3854 /* Color+Codable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B5EC8EE027C18C56008587AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC8EE127C18C56008587AA /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5EC8EE327C1A5C0008587AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC8EE427C1A5D0008587AA /* Reminder.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +271,9 @@
 			dependencies = (
 			);
 			name = "Home Control";
+			packageProductDependencies = (
+				B5C420A827C6CD3700BE3854 /* DynamicColor */,
+			);
 			productName = "Home Control";
 			productReference = B597A97127AC778C00CC2D1C /* Home Control.app */;
 			productType = "com.apple.product-type.application";
@@ -229,6 +346,9 @@
 				Base,
 			);
 			mainGroup = B597A96827AC778C00CC2D1C;
+			packageReferences = (
+				B5C420A727C6CD3700BE3854 /* XCRemoteSwiftPackageReference "DynamicColor" */,
+			);
 			productRefGroup = B597A97227AC778C00CC2D1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -271,9 +391,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C420AC27C6CF9800BE3854 /* Color+Codable.swift in Sources */,
+				B5EC8EE527C1A5D0008587AA /* Reminder.swift in Sources */,
 				B597A9A027AC789300CC2D1C /* ReminderViewModel.swift in Sources */,
 				B597A97727AC778C00CC2D1C /* ContentView.swift in Sources */,
+				B50933BE27BAF178006F08B0 /* RemindersView.swift in Sources */,
+				B50933C127BAF7C1006F08B0 /* ScrollViewIfNeeded.swift in Sources */,
+				B57CF93427BC29E800B7C3F8 /* Storage.swift in Sources */,
+				B57CF94227BC417600B7C3F8 /* View+AnyView.swift in Sources */,
+				B57CF93F27BC3BAC00B7C3F8 /* View+Sheet.swift in Sources */,
+				B57CF93D27BC3B3700B7C3F8 /* View+Alert.swift in Sources */,
+				B57CF94427BC459800B7C3F8 /* AddReminderView.swift in Sources */,
 				B597A9A227AC78A700CC2D1C /* ReminderView.swift in Sources */,
+				B57CF93B27BC2D9C00B7C3F8 /* RemindersRouter.swift in Sources */,
+				B5EC8EDE27C185E5008587AA /* MemoryStorage.swift in Sources */,
+				B5EC8EE727C2DF28008587AA /* Services.swift in Sources */,
+				B57CF93927BC2AA900B7C3F8 /* CloudStorage.swift in Sources */,
 				B597A97527AC778C00CC2D1C /* Home_ControlApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C420AE27C788FC00BE3854 /* CodableColorTests.swift in Sources */,
 				B597A98627AC778F00CC2D1C /* Home_ControlTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -417,7 +551,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,6 +566,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Home Control/Home Control.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Home Control/Preview Content\"";
@@ -443,13 +578,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tech.zuluteam.Home-Control";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.zuluteam.homecontrol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -462,6 +597,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Home Control/Home Control.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Home Control/Preview Content\"";
@@ -473,13 +609,13 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "tech.zuluteam.Home-Control";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.zuluteam.homecontrol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -603,6 +739,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5C420A727C6CD3700BE3854 /* XCRemoteSwiftPackageReference "DynamicColor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yannickl/DynamicColor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5C420A827C6CD3700BE3854 /* DynamicColor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5C420A727C6CD3700BE3854 /* XCRemoteSwiftPackageReference "DynamicColor" */;
+			productName = DynamicColor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B597A96927AC778C00CC2D1C /* Project object */;
 }

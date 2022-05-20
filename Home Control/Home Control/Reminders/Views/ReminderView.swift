@@ -8,12 +8,9 @@
 import SwiftUI
 
 struct ReminderView: View {
-
     @ObservedObject var viewModel: ReminderViewModel
 
     private let timer = Timer.publish(every: 0.01, on: .main, in: .common).autoconnect()
-
-    @State var showRect: Bool = false
 
     var body: some View {
         ZStack {
@@ -55,6 +52,9 @@ struct ReminderView: View {
                     )
                     .zIndex(1)
             }
+        }
+        .onTapGesture {
+            // NOTE: onTapGesture enables scrolling with drag gesture
         }
         .gesture(
             DragGesture(minimumDistance: 0.0)
